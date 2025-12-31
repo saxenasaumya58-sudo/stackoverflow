@@ -22,13 +22,13 @@ jobs:
           node-version: '20'
 
       - name: Install frontend deps
-        run: npm ci --prefix frontend
+        run: npm ci --prefix "n8n workflow/ai-document-orchestrator/frontend"
 
       - name: Build frontend
-        run: npm run build --prefix frontend
+        run: npm run build --prefix "n8n workflow/ai-document-orchestrator/frontend"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./frontend/dist
+          publish_dir: ./"n8n workflow/ai-document-orchestrator"/frontend/dist
