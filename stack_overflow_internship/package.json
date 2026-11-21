@@ -1,0 +1,38 @@
+{
+  "name": "stack-overflow-internship",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "dev:fast": "next dev --turbo",
+    "clean:next": "node -e \"require('node:fs').rmSync(process.env.NEXT_BUILD_DIST_DIR || '.next', { recursive: true, force: true })\"",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint app components lib models tests middleware.js next.config.mjs"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "jose": "^6.2.12",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^1.49.0",
+    "mongoose": "^8.24.4",
+    "next": "^16.4.6",
+    "nodemailer": "^10.0.13",
+    "pdfkit": "^0.20.2",
+    "razorpay": "^2.9.8",
+    "react": "^18",
+    "react-dom": "^18",
+    "twilio": "^6.1.2",
+    "ua-parser-js": "^2.0.10"
+  },
+  "devDependencies": {
+    "eslint": "^10.15.0",
+    "eslint-config-next": "^16.4.6",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,1 @@
+{"accountProtection":"账户保护","devicesSessions":"设备与会话","devicesIntro":"查看账户登录位置，并撤销不认识的访问权限。","sessionSecurityInfo":"会话在连续 {minutes} 分钟不活动后过期。新设备需通过电子邮件验证。","inactivityWindow":"不活动时限：{minutes} 分钟（可通过 SESSION_INACTIVITY_MS 环境变量配置）","signInToSeeDevices":"登录后查看活跃设备。","deviceListHint":"创建账户会话后，此列表会更新。","ipUnavailable":"IP 不可用"}

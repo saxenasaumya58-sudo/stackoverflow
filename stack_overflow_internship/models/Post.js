@@ -1,0 +1,1 @@
+export { CommunityPost, Post } from "@/models/CommunityPost";

@@ -1,0 +1,1 @@
+export { LanguageSettings as LanguageSwitcher } from "@/components/account-forms";

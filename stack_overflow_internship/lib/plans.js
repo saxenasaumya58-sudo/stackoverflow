@@ -1,0 +1,7 @@
+export const plans = [
+  { slug: "free", name: "Free", price: 0, questionLimit: 1, dailyQuestions: 1, badge: "Member", searchPriority: 0, features: ["1 question per day", "Basic search"] },
+  { slug: "bronze", name: "Bronze", price: 99, questionLimit: 5, dailyQuestions: 5, badge: "Bronze", searchPriority: 1, features: ["5 questions per day", "Bronze badge", "Advanced search"] },
+  { slug: "silver", name: "Silver", price: 299, questionLimit: 15, dailyQuestions: 15, badge: "Silver", searchPriority: 2, features: ["15 questions per day", "Silver badge", "Priority support", "Unlimited bookmarks"] },
+  { slug: "gold", name: "Gold", price: 999, questionLimit: -1, dailyQuestions: -1, badge: "Gold", searchPriority: 3, features: ["Unlimited questions", "Gold badge", "Featured profile", "Exclusive features"] },
+];
+export const languages = [{ code: "en", name: "English", native: "English", flag: "EN" }, { code: "es", name: "Spanish", native: "Español", flag: "ES" }, { code: "hi", name: "Hindi", native: "हिन्दी", flag: "HI" }, { code: "pt", name: "Portuguese", native: "Português", flag: "PT" }, { code: "zh", name: "Chinese", native: "中文", flag: "ZH" }, { code: "fr", name: "French", native: "Français", flag: "FR" }];
